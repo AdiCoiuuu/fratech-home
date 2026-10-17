@@ -1,0 +1,15 @@
+{
+  "domain": "fratech_home",
+  "name": "Fratech Home",
+  "codeowners": ["@AdiBUBBLE"],
+  "config_flow": true,
+  "dependencies": ["frontend", "http", "panel_custom"],
+  "documentation": "https://github.com/AdiBUBBLE/fratech-home",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/AdiBUBBLE/fratech-home/issues",
+  "loggers": ["custom_components.fratech_home"],
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "1.2.0"
+}
